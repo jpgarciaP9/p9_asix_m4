@@ -16,23 +16,24 @@ Utilitzar un entorn virtual t'ajuda a mantenir les dependències organitzades i 
 Obre el terminal i navega fins a la carpeta on vols crear el projecte. Després, executa:
 
 ```bash
-python -m venv venv
+python -m venv env
 ```
+Que vol dir : python, executa el mòdul (-m) que es diu venv i crea la carpeta env
 
-Això crearà una carpeta anomenada `venv` que conté l'entorn virtual.
+Això crearà una carpeta anomenada `env` que conté l'entorn virtual.
 
 **1.2. Activar l'entorn virtual:**
 
 - **Windows:**
 
   ```bash
-  venv\Scripts\activate
+  env\Scripts\activate
   ```
 
 - **Linux/macOS:**
 
   ```bash
-  source venv/bin/activate
+  source env/bin/activate
   ```
 
 Veureu que el terminal mostra el nom de l'entorn virtual, indicant que està activat.
